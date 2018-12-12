@@ -1,10 +1,10 @@
 # HelpScoutZaps
 
-JavaScript Zap actions to set custom fields and to set tags on HelpScout via Zapier
+JavaScript Zap actions to set custom fields and to set tags on Help Scout via Zapier
 
-# App Setup on HelpScout
+# App Setup on Help Scout
 
-Follow the instructions here under "OAUTH2 APPLICATION" to create an App ID and App Secret for use on HelpScout:
+Follow the instructions here under "OAUTH2 APPLICATION" to create an App ID and App Secret for use on Help Scout:
 
 [https://developer.helpscout.com/mailbox-api/overview/authentication/](https://developer.helpscout.com/mailbox-api/overview/authentication/)
 
@@ -42,9 +42,9 @@ To use:
 2. Select "Run JavaScript" as the type of code action to create, and click Continue
 3. Create and set the following variables for inputData:
 
-	**access_token**: (optional) set from previous HelpScout scripting step
-	**client_id**: your Zapier App ID from HelpScout (see "App Setup" above)
-	**client_secret**: your Zapier App Secret from HelpScout (see "App Setup" above)
+	**access_token**: (optional) set from previous Help Scout scripting step
+	**client_id**: your Zapier App ID from Help Scout (see "App Setup" above)
+	**client_secret**: your Zapier App Secret from Help Scout (see "App Setup" above)
 	**custom_field_id**: see "Find your custom field ID" above
 	**message_id**: set from previous step where conversation was found or created
 	**description**: set from previous step or with static text
@@ -60,9 +60,9 @@ To use:
 2. Select "Run JavaScript" as the type of code action to create, and click Continue
 3. Create and set the following variables for inputData:
 
-	**access_token**: (optional) set from previous HelpScout scripting step
-	**client_id**: your Zapier App ID from HelpScout (see "App Setup" above)
-	**client_secret**: your Zapier App Secret from HelpScout (see "App Setup" above)
+	**access_token**: (optional) set from previous Help Scout scripting step
+	**client_id**: your Zapier App ID from Help Scout (see "App Setup" above)
+	**client_secret**: your Zapier App Secret from Help Scout (see "App Setup" above)
 	**message_id**: set from previous step where conversation was found or created
 	**tag**: set single tag from previous step or with static text
 
